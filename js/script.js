@@ -53,7 +53,7 @@ function deleteBalloon(elem) {
 
 function playBallSound() {
   let audio = document.createElement("audio");
-  audio.src = "../sound/pop.mp3";
+  audio.src = "sound/pop.mp3";
   audio.play();
 }
 
